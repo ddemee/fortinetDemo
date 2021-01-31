@@ -1,4 +1,7 @@
 /* defaults  */
+body {
+    background-color: #e8e8e8;
+}
 img {
     width: 100%;
 }
@@ -61,21 +64,39 @@ h5 {
 }
 /* section1 */
 .section1-bg {
-    background-image: url(../img/nasa.jpg);
+    background-image: url(../img/Systemback.jpg);
     width: 100%;
     height: 100%;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+.section1-bg::after {
+    content: "";
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0.5;
 }
 .section1{
-    padding: 150px 0;
+    padding: 300px 0;
+
+}
+.section1-text {
+    z-index: 3;
+    position: absolute;
 
 }
 .section1 p {
     color: white;
     font-size: 25px ;
     margin-bottom: 30px;
+    z-index: 2;
     
 }
 .section1 a{
@@ -167,15 +188,31 @@ h5 {
 }
 /* section5 */
 .section5-bg {
-    background-image: url(../img/world-map-of-journeys.jpg);
+    background-image: url(../img/Communication.jpg);
     padding: 50px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 300px 0;
+    position: relative;
 
 }
+.section5-bg::after {
+    content: "";
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0.5;
+}
 .section5 div{
-    width: 60% ;
+    width: 25% ;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
 }
 .section5 div p {
     margin: 25px 0;
@@ -184,6 +221,41 @@ h5 {
     color: white;
 }
 /* ---------------- */
+.partners h3 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+}
+.partners-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.partners-div div{
+    width: 35%;
+    padding: 50px 10px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partners-div div img {
+    width: 50%;
+}
+.partners-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partners-text p {
+    width: 35%;
+    margin: 25px 0 150px 0;
+    font-size: 20px;
+}
+/* ========== */
 .section6 {
     padding: 50px 0 150px 0;
 }
@@ -219,6 +291,14 @@ h5 {
 /* ------------ */
 .section8-bg {
     background-color:#323e48;
+    padding: 100px 0 150px;
+    text-align: center;
+}
+.section8-bg h5 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 150px ;
+   
 }
 .benefit {
     display: flex;
