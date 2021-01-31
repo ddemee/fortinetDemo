@@ -203,7 +203,7 @@ h5 {
 .section4-column {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:stretch;
 
 }
 .section4-column div{
