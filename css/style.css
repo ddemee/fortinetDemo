@@ -85,12 +85,17 @@ h5 {
 }
 .section1{
     padding: 300px 0;
+}
+.section1-div {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
 
 }
 .section1-text {
-    z-index: 3;
-    position: absolute;
-
+    width: 55%;
+    line-height: 1.55;
 }
 .section1 p {
     color: white;
@@ -291,17 +296,17 @@ h5 {
 /* ------------ */
 .section8-bg {
     background-color :#363434;
-    padding: 100px 0 150px;
+    padding: 70px 0 80px;
     text-align: center;
 }
 .section8-bg h5 {
     text-align: center;
     font-size: 35px;
-    margin-bottom: 150px ;
+    margin-bottom: 100px ;
    
 }
 .section8-bg h6 {
-    margin: 20px 0;
+    margin: 30px 0 20px;
     font-size: 22px;
 }
 .benefit {
@@ -320,5 +325,10 @@ h5 {
 }
 .icon {
     font-size: 45px;
-    color: red;
+    color:#ff2e63;
+    opacity: 0.7;
+}
+.benefit p {
+    font-size: 18px;
+    line-height: 1.5;
 }
