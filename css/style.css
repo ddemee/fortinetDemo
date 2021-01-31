@@ -177,14 +177,21 @@ h5 {
     margin: 25px 0;
 }
 .icons-column {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 40px 0 ;
 }
 .icons1 {
-    width: 20%;
+    max-width: 30px;
+    height: 30px;
+    color: white;
+    transition: all 0.5s ease ;
+    margin: 20px ;
+}
+.icons1:hover {
+    max-width: 40px;
     color: white;
 }
 /* section4 */
