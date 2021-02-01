@@ -41,7 +41,8 @@ h5 {
     align-items: baseline;
 }
 .logo {
-    font-size: 30px;
+    max-width: 280px ;
+    width: 100%;
 }
 .navigation ul {
     display: flex;
@@ -363,4 +364,51 @@ h5 {
 .benefit p {
     font-size: 18px;
     line-height: 1.5;
+}
+/* ----------------------- */
+.footer-box{
+    max-width: 380px;
+    width:100%;
+    margin-right: 150px;
+}
+.footer-column a {
+    transition: all 0.2s ease-in;
+}
+.footer-column a:hover {
+    color:  #BD11FA;
+}
+
+.footer-column a {
+   font-size: 14px;
+   line-height: 1.55;
+   color: white;
+}
+.map,
+.email,
+.tele {
+    color:white;
+    margin-right: 10px;
+}
+p {
+    font-size: 12px;
+}
+.footer {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0 150px;
+}
+.footer-column  {
+    display: flex;
+
+
+}
+.footer-column h6 {
+    font-size: 20px ;
+    margin-bottom: 30px;
+    color: #E6F5FF;
+
 }
