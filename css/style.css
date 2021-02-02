@@ -495,7 +495,7 @@ p {
     position: relative;
     width: 100%;
     height: 100%;
-    padding: 220px 0;
+    padding: 250px 0;
 }
 .SDWAN-header::after {
     content: "";
@@ -541,6 +541,7 @@ p {
 /* ======================= */
 .whatissdwan {
     padding: 50px 0;
+    
 }
 .SD-WAN-Explained {
     display: flex;
@@ -553,4 +554,25 @@ p {
 }
 .SD-WAN-Explained p {
     width: 70%;
+}
+/* ----------- Learn ========== */
+.learnsdwan {
+    background-color: #691c32;
+    padding: 50px 0;
+}
+.learnsdwan div {
+    margin: 0 auto;
+}
+.learnsdwan h3 {
+    margin-bottom: 30px;
+}
+.learnsdwan a {
+    border: white 2px solid;
+    padding: 10px 20px;
+    color: white;
+    transition: all 0.5s ease;
+}
+.learnsdwan a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    
 }
