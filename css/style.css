@@ -611,6 +611,16 @@ p {
     
 }
 /* ======= how SD wan works ============ */
+.how {
+    background-image: linear-gradient(to right,#f6f5f5, #d3e0ea);
+    padding: 30px 0;
+}
+.howsdwan h2{
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.5;
+    margin: 0;
+}
 .howsdwanworks {
     padding: 30px 0;
     display: flex;
@@ -621,4 +631,18 @@ p {
     width: 100%;
     max-width: 360px;
     align-items: center;
+}
+.howsdwanworks-column {
+    width: 45%;
+    margin: 0 auto;
+}
+/* ---------------- */
+.historysdwan {
+    background-image: linear-gradient(to right,#f6f5f5, #a3d2ca);
+    padding: 30px 0;
+}
+.historysdwan strong{
+    font-weight: 900;
+    
+
 }
