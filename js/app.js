@@ -1,10 +1,8 @@
-const header = document.querySelectorAll('.header');
-
-window.onscroll = function(){
-    var top = window.scrollY;
-    if (top >=50){
-        header.classlist.add('active')
-    }else{
-        header.classlist.remove('active');
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".header").addClass("scrolled");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("scrolled");
     }
-}
+});
