@@ -79,6 +79,7 @@ header{
     padding: 10px 15px;
     color: white;
     transition: all 0.5s ease;
+    font-size: 18px;
 }
 .navigation ul li a:hover {
     background-color: rgba(255, 255, 255, 0.5);
@@ -87,9 +88,10 @@ header{
 }
 /*  ---scrolled----- */
 .scrolled {
-    background: rgba(255, 255, 255);
+    background: #f6f5f5;
     border-bottom: 1px solid #fff;
     z-index: 4;
+    box-shadow: 0 5px 10px rgba(187, 187, 187, 0.5);
     transition: all 1s ease;
 }
 .scrolled .logo {
@@ -100,6 +102,7 @@ header{
 }
 .scrolled ul li a {
     color: black;
+    font-size: 18px;
 }
 .scrolled ul li a:hover {
     background-color: rgba(187, 187, 187, 0.5);
