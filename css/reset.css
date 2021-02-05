@@ -94,6 +94,10 @@ textarea {
   }
 
 .bpg {
-	font-family: 'BPG Classic Medium';
+	font-family: "BPG Banner QuadroSquare Caps", sans-serif;
 }
+.ucnobi {
+	font-family: 'BPG Ucnobi';
+}
+
 /* ----- */
