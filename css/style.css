@@ -261,47 +261,55 @@ header{
     color: white;
 }
 /* section4 */
-.section4 {
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 0;
+
+.product-main {
+    background-color: white;
+    padding: 30px 0 100px 0;
+}
+.product-main  h2 {
+    margin-top: 0 ;
+    font-size: 24px;
+
+}
+.product-div {
+    width: 25%;
+    
 }
 .section4-column {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items:stretch;
 
 }
-.section4-column div{
-    width: 22%;
+.section4-col {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 70px;
+}
+.section4-column img {
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+}
+.product-main a{
+    float: right;
+    margin: 50px 0 0 0;
 }
 /* section5 */
-.section5-bg {
+.industry {
     background-image: url(../img/Communication.jpg);
     padding: 50px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 300px 0;
-    position: relative;
+    padding: 200px 0;
+}
 
-}
-.section5-bg::after {
-    content: "";
-    background-color: #000;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    opacity: 0.5;
-}
 .section5 {
-    position: absolute;
-    top: 40%;
-    z-index: 3;
+    top: 50%;
 }
 .section5 div{
     width: 60%;
@@ -347,6 +355,26 @@ header{
     margin: 25px 0 150px 0;
     font-size: 20px;
 }
+.wekeep h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.wekeep-company {
+    margin: 50px auto;
+}
+.wekeep-company .wekeep-col {
+    padding: 50px;
+    transition: transform .2s;
+    width: 230px;
+    height: 230px;
+}
+.wekeep-company .wekeep-col:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+
+}
+
 /* ========== */
 .section6 {
     padding: 50px 0 150px 0;

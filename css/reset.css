@@ -65,6 +65,12 @@ button {
 .dib {
     display: inline-block;
 }
+.border-right {
+	border-right: 1px solid black;
+}
+.border-bottom {
+	border-bottom: 1px solid black;
+}
 .block {
 	display: block;
 }
