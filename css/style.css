@@ -163,6 +163,17 @@ header{
     
 }
 /* section2 */
+#columns {
+    background-image: url(../img/switch.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 80px 0;
+    background-attachment: fixed;
+
+}
+
 .section2-column {
     display: flex;
     justify-content: space-between;
@@ -170,7 +181,7 @@ header{
     border: 1px solid #ccc;
     box-shadow: 0 15px 10px -14px rgb(0 0 0 / 31%);
     align-items: center;
-    margin:40px 0;
+    background-color: #383e56d5;
 }
 .section2-column div {
     padding: 150px 50px 150px 20px;
@@ -180,7 +191,15 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 150px;
+
+}
+.imageinheader {
+    width: 50%;
+}
+.section2-column h2,
+.section2-column p {
+    color: white;
+    margin: 35px 0;
 }
 .section2-col-div {
    width: 31%;
@@ -188,6 +207,8 @@ header{
    box-shadow: 0 15px 10px -14px rgb(0 0 0 / 31%);
    padding-bottom:20px;
    position: relative;
+   background-color: #383e56d5;
+   margin-top: 25px;
 }
 .section2-col-div a {
     position: absolute;
@@ -205,8 +226,9 @@ header{
 .section2-col-div h2 {
     font-size: 35px;
     font-weight: 500px;
-    color: #323e48;
+    color: #ffffff;
     margin: 20px 0;
+    
 }
 .section2-col div div {
     padding: 10px;
@@ -215,7 +237,7 @@ header{
     margin: 25px 0;
     font-size: 16px;
     line-height: 1.5rem;
-    color: #5a646c;
+    color: #ffffff;
 
 }
 .section2-col-div img {
@@ -261,6 +283,15 @@ header{
     color: white;
 }
 /* section4 */
+#product {
+    background-image: url(../img/cabels.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 120px 0;
+    background-attachment: fixed;
+}
 
 .product-main {
     background-color: white;
@@ -269,10 +300,12 @@ header{
 .product-main  h2 {
     margin-top: 0 ;
     font-size: 24px;
+    color: white;
 
 }
 .product-div {
     width: 25%;
+    background-color: rgb(255, 255, 255);
     
 }
 .section4-column {
@@ -280,6 +313,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items:stretch;
+    border-radius: 5px;
 
 }
 .section4-col {
@@ -297,6 +331,11 @@ header{
 .product-main a{
     float: right;
     margin: 50px 0 0 0;
+    color: white;
+    transition: all ease 0.5s;
+}
+.product-main a:hover{
+    color: rgb(23, 56, 100);
 }
 /* section5 */
 .industry {
@@ -321,6 +360,19 @@ header{
     color: white;
 }
 /* ---------------- */
+#partners {
+    background-image: url(../img/cabels2.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 120px 0;
+    background-attachment: fixed;
+}
+.partners .container {
+    background-color: rgba(255, 255, 255, 0.877);
+    padding: 50px 30px 80px ;
+}
 .partners h3 {
     text-align: center;
     margin: 50px 0;
@@ -335,7 +387,7 @@ header{
 }
 .partners-div div{
     width: 35%;
-    padding: 50px 10px ;
+    padding: 50px 10px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -359,9 +411,7 @@ header{
     font-size: 30px;
     text-align: center;
 }
-.wekeep-company {
-    margin: 50px auto;
-}
+
 .wekeep-company .wekeep-col {
     padding: 50px;
     transition: transform .2s;
@@ -415,9 +465,11 @@ header{
 }
 .section7 button {
     width: 100%;
-    padding: 30px 25px;
+    padding: 15px 35px;
     font-size:20px;
     color: #000;
+    background-color:#ec4646;
+    color: white;
 }
 /* ------------ */
 .section8-bg {
