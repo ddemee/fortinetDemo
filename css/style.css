@@ -405,11 +405,17 @@ header{
     margin: 25px 0 150px 0;
     font-size: 20px;
 }
+
 .wekeep h2 {
     font-size: 30px;
     text-align: center;
 }
+.wekeep-company {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 
+}
 .wekeep-company .wekeep-col {
     padding: 50px;
     transition: transform .2s;
