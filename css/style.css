@@ -206,6 +206,7 @@ header{
    position: relative;
    background-color: #ffffffd5;
    margin-top: 25px;
+   border-radius: 10px;
 }
 .section2-col-div a {
     position: absolute;
@@ -256,13 +257,13 @@ header{
 }
 .section3 {
     padding: 10px 0;
-    text-align: center;
 }
 .section3 div p {
     color: white;
     font-size: 16px;
     line-height: 1.5rem;
     margin: 25px 0;
+    width: 50%;
 }
 .icons-column {
     display: flex;
@@ -290,67 +291,73 @@ header{
 }
 /* section4 */
 #product {
-    background-image: url(../img/cabels.jpg);
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 40px 0 120px 0;
-    background-attachment: fixed;
 }
 .product-columns {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: baseline;
 }
 #product  h2 {
     margin-top: 0 ;
     font-size: 36px;
+    color: rgb(0, 0, 0);
+
+}
+#product  h4 {
+    margin-top: 0 ;
+    font-size: 20px;
     color: white;
 
 }
 .center-div {
     width: 25%;
-    background-color: rgb(255, 255, 255);
+    background-color: #222831;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px 30px;
+    padding: 200px 30px 100px;
     border-radius: 10px;
+    position: relative;
     
 }
 
-
-.section4-column img {
-    max-width: 150px;
-    width: 100%;
-    height: 150px;
+.right-div,
+.left-div {
+    width: 25%;
+    background-color: #3b5875de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 180px 30px 80px;
+    border-radius: 10px;
+    position: relative;
 }
 #product a{
     float: right;
     margin: 50px 0 0 0;
-    color: white;
+    color: rgb(0, 0, 0);
     transition: all ease 0.5s;
 }
 #product a:hover{
     color: rgb(23, 56, 100);
 }
 /* section5 */
-.industry {
-    background-image: url(../img/Communication.jpg);
+#industry {
+    background-image: linear-gradient(to right,#222831, #3b5875);
     padding: 50px 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 200px 0;
 }
 
 .section5 {
     top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
 }
 .section5 div{
-    width: 60%;
+    width: 45%;
 }
 .section5 div p {
     margin: 25px 0;
@@ -358,18 +365,10 @@ header{
     line-height: 1.5rem;
     color: white;
 }
+
 /* ---------------- */
-#partners {
-    background-image: url(../img/cabels2.jpg);
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px 0 120px 0;
-    background-attachment: fixed;
-}
+
 .partners .container {
-    background-color: rgba(255, 255, 255, 0.877);
     padding: 50px 30px 80px ;
 }
 .partners h3 {
@@ -464,28 +463,28 @@ button {
     color: white;
 }
 /* ------------ */
-.section8-bg {
-    background-color :#363434;
-    padding: 70px 0 80px;
+#Benefits{
+    background-image: linear-gradient(to right,#222831, #3b5875);
+    padding: 50px 0;
     text-align: center;
 }
-.section8-bg h5 {
+#Benefits h5 {
     text-align: center;
-    font-size: 35px;
-    margin-bottom: 100px ;
+    font-size: 25px;
+    margin-bottom: 50px ;
    
 }
-.section8-bg h6 {
-    margin: 30px 0 20px;
-    font-size: 22px;
+#Benefits h6 {
+    margin: 20px 0 10px;
+    font-size: 20px;
 }
-.benefit {
+.benefit-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
+    padding: 30px 0;
 }
-.benefit div {
+.benefit-div div {
     width: 31%;
     color: white;
     display: flex;
@@ -498,8 +497,8 @@ button {
     color:#ff2e63;
     opacity: 0.7;
 }
-.benefit p {
-    font-size: 18px;
+.benefit-div p {
+    font-size: 16px;
     line-height: 1.5;
 }
 /* ----------------------- */
