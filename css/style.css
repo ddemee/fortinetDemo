@@ -202,7 +202,7 @@ header{
    width: 31%;
    border: 1px solid #ccc;
    box-shadow: 0 15px 10px -14px rgb(0 0 0 / 31%);
-   padding-bottom:20px;
+   padding:60px 20px;
    position: relative;
    background-color: #ffffffd5;
    margin-top: 25px;
@@ -238,8 +238,16 @@ header{
 
 }
 .section2-col-div img {
-    width: 100%;
-    height: 250px;
+    max-width: 150px;
+    height: 100px;
+    position: absolute;
+    top: -10px;
+    right: -40px;
+    z-index: 2;
+    transition: all ease 0.5s;
+}
+.section2-col-div img:hover{
+    transform: scale(1.2);
 }
 /* section3 */
 #iconssection {
@@ -290,49 +298,42 @@ header{
     padding: 40px 0 120px 0;
     background-attachment: fixed;
 }
-
-.product-main {
-    background-color: white;
-    padding: 30px 0 100px 0;
+.product-columns {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
-.product-main  h2 {
+#product  h2 {
     margin-top: 0 ;
-    font-size: 24px;
+    font-size: 36px;
     color: white;
 
 }
-.product-div {
+.center-div {
     width: 25%;
     background-color: rgb(255, 255, 255);
-    
-}
-.section4-column {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items:stretch;
-    border-radius: 5px;
-
-}
-.section4-col {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 70px;
+    padding: 60px 30px;
+    border-radius: 10px;
+    
 }
+
+
 .section4-column img {
     max-width: 150px;
     width: 100%;
     height: 150px;
 }
-.product-main a{
+#product a{
     float: right;
     margin: 50px 0 0 0;
     color: white;
     transition: all ease 0.5s;
 }
-.product-main a:hover{
+#product a:hover{
     color: rgb(23, 56, 100);
 }
 /* section5 */
