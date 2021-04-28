@@ -364,6 +364,13 @@ header{
     line-height: 1.5rem;
     color: white;
 }
+.section5 img {
+    animation: fadeout 2s infinite  alternate-reverse;
+}
+@keyframes fadeout {
+    0% { opacity: 0%; }
+    100%  { opacity: 100%;}
+}
 
 /* ---------------- */
 
