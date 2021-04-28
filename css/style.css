@@ -365,7 +365,7 @@ header{
     color: white;
 }
 .section5 img {
-    animation: fadeout 2s infinite  alternate-reverse;
+    animation: fadeout 1s infinite  alternate-reverse;
 }
 @keyframes fadeout {
     0% { opacity: 0%; }
