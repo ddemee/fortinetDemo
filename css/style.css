@@ -235,6 +235,9 @@ header{
    margin-top: 25px;
    border-radius: 10px;
 }
+.section2-col-div:hover img {
+    transform: scale(1.2);
+}
 .section2-col-div a {
     position: absolute;
     bottom: 10px;
@@ -275,9 +278,7 @@ header{
     z-index: 2;
     transition: all ease 0.5s;
 }
-.section2-col-div img:hover{
-    transform: scale(1.2);
-}
+
 /* section3 */
 #iconssection {
     background-image: linear-gradient(to right,#222831, #3b5875);
@@ -393,6 +394,13 @@ header{
     line-height: 1.5rem;
     color: white;
 }
+.section5 img {
+    animation: fadeout 1s infinite  alternate-reverse;
+}
+@keyframes fadeout {
+    0% { opacity: 0%; }
+    100%  { opacity: 100%;}
+}
 
 /* ---------------- */
 
@@ -459,7 +467,9 @@ header{
 
 /* ========== */
 .section6 {
-    padding: 50px 0 150px 0;
+    padding: 50px 0 50px 0;
+    position: relative;
+    background-image: linear-gradient(to right,#222831, #3b5875);
 }
 .section6-div {
     display: flex;
@@ -473,11 +483,20 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    color: white;
+}
+.seciton6-text h2 {
+    font-size: 25px;
+    color: white;
 }
 .section6 iframe {
-    width:  45%;
-    height: 400px;
+    width:  30%;
+    height: 300px;
+    position: absolute;
+    right: 150px;
+    bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 /* ----------------------- */
 button {
