@@ -394,11 +394,14 @@ header{
     color: white;
 }
 .industry-img {
-    animation: fade 2s infinite alternate-reverse;
+    animation: fade 1s infinite alternate-reverse;
 }
 @keyframes fade {
     0% {
-        transform: 
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
     }
 }
 /* ---------------- */
