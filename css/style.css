@@ -469,25 +469,36 @@ header{
 
 /* ========== */
 .section6 {
-    padding: 50px 0 150px 0;
+    padding: 90px 0;
+    background-image: linear-gradient(to right,#222831, #3b5875);
+    position: relative;
 }
 .section6-div {
     display: flex;
     justify-content: space-between;
     align-items:stretch;
+    color: white;
 
+}
+.section6-div h2 {
+    color: white;
 }
 .seciton6-text {
     width: 45%;
-    padding: 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
     
 }
 .section6 iframe {
-    width:  45%;
-    height: 400px;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
 }
 /* ----------------------- */
 
