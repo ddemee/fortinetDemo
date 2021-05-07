@@ -159,6 +159,14 @@
         margin: 0 auto;
         margin-top: 20px;
     }
+       /* WE Keep */
+    .wekeep-company {
+        flex-wrap: wrap;
+    }
+    .wekeep-company .wekeep-col {
+        padding: 10px;
+        width:35%;
+    }
     /* ------------- */
     .footer-form {
         margin-top: 30px;
@@ -179,6 +187,11 @@
         width: 100%;
         padding:30px 15px;
         margin: 10px auto;
+    }
+    .section2-col-div img {
+        position: absolute;
+        top: 0px;
+        right: -10px;
     }
     /* ------------------ */
     /* ---- Benefits ---- */
@@ -204,7 +217,14 @@
     }
     /* ---------------- */
     
-
+    /* WE Keep */
+    .wekeep-company {
+        flex-wrap: wrap;
+    }
+    .wekeep-company .wekeep-col {
+        padding: 10px;
+        width: 49%;
+    }
     /* footer  */
     .footer-left-side,
     .footer-right-side,
