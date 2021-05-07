@@ -325,7 +325,7 @@ header{
     flex-direction: column;
     color: white;
     transition: all 0.5s ease ;
-    margin: 20px 0;
+    margin: 20px 20px;
 }
 .icons1:hover {
     transform: scale(1.2);
@@ -399,13 +399,12 @@ header{
 }
 
 .section5 {
-    top: 50%;
     display: flex;
     justify-content: space-between;
     align-self: center;
 }
 .section5 div{
-    width: 45%;
+    width: 50%;
 }
 .section5 div p {
     margin: 25px 0;

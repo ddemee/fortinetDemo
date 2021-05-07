@@ -2,7 +2,15 @@
     .container {
         max-width: 1090px;
     }
-
+      /* Product Main  */
+      .center-div {
+        width: 35%;
+    }
+    .right-div,
+    .left-div {
+        width: 30%;
+    }
+    /* ------------- */
     /* Columns  */
     .section2-col-div {
         width: 31%;
@@ -14,6 +22,16 @@
     .container {
         max-width: 990px;
     }
+    /* ICONS  */
+    .icons-column {
+        flex-wrap: wrap;
+    }
+    .icons1 {
+        max-width: 40px;
+        height: 40px;
+        margin: 30px 30px;
+    }
+    
       /* Columns  */
       .section2-col-div {
         width: 32%;
@@ -55,6 +73,28 @@
         max-width: 100px;
         height: 60px;
     }
+    /* Product Main  */
+    .center-div {
+        width: 35%;
+    }
+    .right-div,
+    .left-div {
+        width: 31%;
+    }
+    /* ------------- */
+    /* Industry */
+    .section5 {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .section5 div{
+        width: 50%;
+    }
+    .section5 img {
+        max-width: 450px;
+        width: 100%;
+    }
 
     /* ----------- */
     .information {
@@ -77,12 +117,13 @@
             margin: 10px auto;
         }
     /* ------------------ */
-    /* Industry  */
-    .section5 {
-        top: 50%;
-        display: flex;
-        justify-content: space-between;
-        align-self: center;
+   /* Industry */
+   .section5 {
+    flex-direction: column;
+    }
+    .section5 div{
+        width: 80%;
+        margin: 0 auto;
     }
     /* Product Main  */
     .product-columns {
@@ -107,7 +148,18 @@
         padding: 70px 15px 20px;
     }
     /* ------------- */
-
+    /* ---- Benefits ---- */
+    .benefit-div {
+      flex-wrap: wrap;
+    }
+    .benefit-div div {
+        width: 43%;
+    }
+    .benefit-div div:last-child{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    /* ------------- */
     .footer-form {
         margin-top: 30px;
       }
@@ -115,8 +167,8 @@
   }
 @media (max-width: 575.98px) { 
 
-     /* Columns  */
-     .section2-col {
+    /* Columns  */
+    .section2-col {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -128,7 +180,30 @@
         padding:30px 15px;
         margin: 10px auto;
     }
-/* ------------------ */
+    /* ------------------ */
+    /* ---- Benefits ---- */
+    .benefit-div {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .benefit-div div:last-child{
+        margin: 0 auto;
+        margin-top: 0;
+    }
+    .benefit-div div {
+        width: 80%;
+        margin-top: 20px;
+    }
+     /* Industry */
+   .section5 {
+    flex-direction: column;
+    }
+    .section5 div{
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* ---------------- */
+    
 
     /* footer  */
     .footer-left-side,
@@ -139,8 +214,8 @@
     }
     #footer input {
         width: 250px;
-  }
-  #footer textarea{
-        width: 250px;
-  }
+    }
+    #footer textarea{
+            width: 250px;
+    }
 }
