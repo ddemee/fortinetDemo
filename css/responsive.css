@@ -2,26 +2,111 @@
     .container {
         max-width: 1090px;
     }
+
+    /* Columns  */
+    .section2-col-div {
+        width: 31%;
+        padding:40px 10px;
+    }
  }
 
 @media (max-width: 1199.98px) {
     .container {
         max-width: 990px;
     }
+      /* Columns  */
+      .section2-col-div {
+        width: 32%;
+        padding:40px 10px;
+    }
+    .section2-col-div h2 {
+        font-size: 22px;
+        margin: 20px 0;
+        
+    }
+    .section2-col div div p {
+        font-size: 16px;
+        line-height: 1.4rem;
+    
+    }
+    .section2-col-div img {
+        max-width: 120px;
+        height: 80px;
+    }
 }
 @media (max-width: 991.98px) { 
 
+    /* Columns  */
+    .section2-col-div {
+        width: 32%;
+        padding:20px 5px;
+    }
+    .section2-col-div h2 {
+        font-size: 20px;
+        margin: 20px 0;
+        
+    }
+    .section2-col div div p {
+        font-size: 15px;
+        line-height: 1.4rem;
+    
+    }
+    .section2-col-div img {
+        max-width: 100px;
+        height: 60px;
+    }
 
-
-
+    /* ----------- */
     .information {
         flex-wrap: wrap;
     }
+    
  }
  @media (max-width: 767.98px) { 
-
-     
+    /* Columns  */
+        .section2-col {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 100%;
+        
+        }
+        .section2-col-div {
+            width: 80%;
+            padding:20px 5px;
+            margin: 10px auto;
+        }
     /* ------------------ */
+    /* Industry  */
+    .section5 {
+        top: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+    /* Product Main  */
+    .product-columns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .center-div {
+        width: 95%;
+        background-color: #222831;
+        padding: 90px 15px 25px;
+        margin: 10px 0;
+          
+        
+    }
+    
+    .right-div,
+    .left-div {
+        width: 85%;
+        background-color: #3b5875de;
+        padding: 70px 15px 20px;
+    }
+    /* ------------- */
 
     .footer-form {
         margin-top: 30px;
@@ -30,7 +115,20 @@
   }
 @media (max-width: 575.98px) { 
 
-
+     /* Columns  */
+     .section2-col {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    .section2-col-div {
+        width: 100%;
+        padding:30px 15px;
+        margin: 10px auto;
+    }
+/* ------------------ */
 
     /* footer  */
     .footer-left-side,
