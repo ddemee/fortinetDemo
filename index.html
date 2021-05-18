@@ -23,42 +23,45 @@
         <header id="header" class="header">
             <div class="container relative">
                 <nav class="navigation">
-                    <!-- white  logooo -->
-                    <a  href="index.html"><img class="whitelogo" src="img/Fortinet-logo-white.png" alt="Fortinet-logo-white.png"></a>
-                    <!-- --- Blackk logoo -->
-                    <a  href="index.html"><img class="logo" src="img/Fortinet_logo.svg.png" alt="Fortinet-logo-white.png"></a>
-                     <!-- white  logooo IT Tech -->
-                    <a  href="https://ittech.ge/" target="_blank"><img class="ittechwhitelogo" src="img/Tetri_1.png" alt="Fortinet-logo-white.png"></a>
-                    <!-- --- Blackk logoo IT Tech -->
-                    <a  href="https://ittech.ge/" target="_blank"><img class="ittechlogo" src="img/Shavi_1.png" alt="Fortinet-logo-white.png"></a>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#product">Product</a></li>
-                        <li><a href="#footer">About Us</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="contactus.html">Contact Us</a></li>
-                    </ul>
-                    <div  class="btn-group">
-                        <a class="language" href="#">Geo</a>
-                        <div class="divider"></div>
-                        <a class="language active " href="index.html">Eng</a>
+                    <div class="logo-box">
+                        <!-- white  logooo -->
+                        <a  href="index.html"><img class="whitelogo" src="img/Fortinet-logo-white.png" alt="Fortinet-logo-white.png"></a>
+                        <!-- --- Blackk logoo -->
+                        <a  href="index.html"><img class="logo" src="img/Fortinet_logo.svg.png" alt="Fortinet-logo-white.png"></a>
+                        <!-- white  logooo IT Tech -->
+                        <a  href="https://ittech.ge/" target="_blank"><img class="ittechwhitelogo" src="img/Tetri_1.png" alt="Fortinet-logo-white.png"></a>
+                        <!-- --- Blackk logoo IT Tech -->
+                        <a  href="https://ittech.ge/" target="_blank"><img class="ittechlogo" src="img/Shavi_1.png" alt="Fortinet-logo-white.png"></a>
                     </div>
+                    <button class="burgerbar" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                        <ul class="nav-links" id="menu">
+                            <a href="index.html"><li> Home</li></a>
+                            <a href="#product"><li></li>Product</li></a>
+                            <a href="#footer"><li></li>About Us</li></a>
+                            <a href="#"><li></li>News</a>
+                            <a href="contactus.html"><li></li>Contact Us</li></a>
+                        </ul>
+                        <div  class="btn-group">
+                            <a class="language" href="#">Geo</a>
+                            <div class="divider"></div>
+                            <a class="language active " href="index.html">Eng</a>
+                        </div>
                 </nav>
             </div>
         </header>
         <section class="section1-bg" id="Main">
             <div class="container section1">
-                <div class="section1-div">
                     <div class="section1-text">
                         <div>
                             <h1>Safe Network</h1>
                             <p>Fortinet Security Fabric Delivers Broad, Integrated, and Automated Protection Everywhere You Need It.</p>
                         </div>
                         <div>
-                            <img src="img/fortinet.png" alt="">
+                            <img src="img/for.png" alt="">
                         </div>
                     </div>
-                </div>
             </div>
         </section>
 
@@ -168,7 +171,7 @@
                         <h4>FortiGate 200E Series</h4>
                     </div>  
                     <div class="center-div ">
-                            <img src="img/fortinet.png" alt="product-demo-fortigate-80">
+                            <img src="img/fortinet1.png" alt="product-demo-fortigate-80">
                             <h4>Secure SD-WAN Demo</h4>
                     </div>
                     <div class="right-div">
@@ -302,7 +305,15 @@
             </div>
         </footer>
 
-
+        <script>
+            const hamburger = document.getElementById('hamburger')
+            const navUL =document.getElementById('menu')
+    
+            hamburger.addEventListener('click', () => {
+                navUL.classList.toggle('show');
+    
+            });
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     </body>

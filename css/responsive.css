@@ -22,6 +22,9 @@
     .container {
         max-width: 990px;
     }
+    .section1-text h1 {
+        font-size: 35px;
+    }
     /* ICONS  */
     .icons-column {
         flex-wrap: wrap;
@@ -53,7 +56,47 @@
     }
 }
 @media (max-width: 991.98px) { 
+    header{
+        position: static;
+        width: 100%;
+        height: auto;
+        background: rgba(0, 0, 0, 0.89);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.212);
+    }
+    /* Hamburger} */
 
+    .navigation {
+        display: flex;
+        align-items:flex-end;
+        flex-direction: column;
+        padding: 50px 0 0 0;
+    }
+    .navigation:last-child {
+        align-items: center;
+    }
+    .burgerbar {
+        display: block;
+        position: absolute;
+        top: 45px;
+        right: 50px;
+    }
+    .nav-links {
+        display: none;
+    }
+    .show {
+        display: block;
+        
+        
+    }
+    .show.nav-links {
+        padding: 50px 0 0 0;
+        width: 100%;
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
     /* Columns  */
     .section2-col-div {
         width: 32%;
@@ -100,9 +143,22 @@
     .information {
         flex-wrap: wrap;
     }
-    
- }
+}
  @media (max-width: 769.98px) { 
+     /* header */
+     .section1-bg {
+        height: 70vh;
+    }
+     .section1-text {
+         flex-direction: column;
+     }
+     .section1-text h1 {
+         font-size: 30px;
+     }
+     .section1 p {
+        color: white;
+        font-size: 20px ;
+    }
     /* Columns  */
         .section2-col {
             display: flex;
@@ -174,6 +230,33 @@
 
   }
 @media (max-width: 575.98px) { 
+    .header {
+        padding: 40px 0;
+    }
+    .btn-group {
+        right: 15px;
+    }
+    .burgerbar {
+        display: block;
+        position: absolute;
+        top: 65px;
+        right: 15px;
+    }
+    .navigation .whitelogo{
+    max-width: 150px;
+    width: 100%;
+    position: absolute;
+    top:15px;
+    left: 15px;
+    }
+    .navigation .ittechwhitelogo{
+        max-width: 80px;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left:15px;
+        
+    }
 
     /* Columns  */
     .section2-col {
@@ -238,6 +321,10 @@
     .wekeep-company .wekeep-col {
         padding: 10px;
         width: 49%;
+    }
+    /* Section 6  */
+    .section6 {
+        display: none;
     }
     /* footer  */
     .footer-left-side,
