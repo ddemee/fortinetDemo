@@ -480,28 +480,34 @@ header{
     justify-content: space-between;
     align-items: stretch;
 }
-.partners-div div{
+.card{
+    border: none;
+    background-color: transparent;
     width: 35%;
-    padding: 50px 10px 0px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px 15px 90px;
+}
+.card img {
+    max-width: 250px;
+    width: 100%;
+}
+.card div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.partners-div div img {
-    width: 50%;
+.card p {
+    position: absolute;
+    bottom: 30px ;
+    left: 25px;
+    width: 80%;
 }
-.partners-text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.partners-text p {
-    width: 35%;
-    margin: 25px 0 150px 0;
-    font-size: 20px;
-}
+
 
 .wekeep h2 {
     font-size: 30px;

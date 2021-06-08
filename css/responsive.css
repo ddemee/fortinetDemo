@@ -216,6 +216,17 @@
         margin-top: 20px;
     }
        /* WE Keep */
+       .partners h3 {
+        font-size: 20px;
+    }
+       .partners-div  {
+           flex-direction: column;
+           align-items: center;
+       }
+       .card  {
+           width: 90%;
+           padding: 10px 10px 180px;
+       }
     .wekeep-company {
         flex-wrap: wrap;
     }
