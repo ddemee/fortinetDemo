@@ -397,6 +397,20 @@ header{
     border-radius: 10px;
     position: relative;
     box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.836);
+
+}
+.first,.second {
+    width: 25%;
+    background-color: #3b5875de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 160px 30px 60px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.836);
+
 }
 #product a{
     float: right;
