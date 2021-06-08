@@ -1,10 +1,16 @@
 /* defaults  */
+@import url("//cdn.web-fonts.ge/fonts/alk-tall-nusxuri/css/alk-tall-nusxuri.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-glaho-arial/css/bpg-glaho-arial.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-mkhedruli-book/css/bpg-nino-mkhedruli-book.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-rioni/css/bpg-rioni.min.css");
 html{
     scroll-behavior: smooth;
 }
 body {
     background-color: #f6f5f5;
     line-height: 1.3;
+    font-family: "BPG Glaho Arial", sans-serif;
+
 }
 img {
     width: 100%;
