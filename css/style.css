@@ -375,6 +375,12 @@ header{
     color: white;
 
 }
+.product-columns div {
+    transition: all 0.2s ease ;
+}
+.product-columns div:hover{
+    transform: scale(1.04);
+}
 .center-div {
     width: 25%;
     background-color: #222831;
