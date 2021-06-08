@@ -224,8 +224,8 @@
            align-items: center;
        }
        .card  {
-           width: 90%;
-           padding: 10px 10px 180px;
+           width: 100%;
+           padding: 10px 10px 200px;
        }
     .wekeep-company {
         flex-wrap: wrap;
@@ -326,6 +326,10 @@
     /* ---------------- */
     
     /* WE Keep */
+    .card  {
+        width: 100%;
+        padding: 10px 10px 350px;
+    }
     .wekeep-company {
         flex-wrap: wrap;
     }
