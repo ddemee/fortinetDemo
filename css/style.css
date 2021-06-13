@@ -548,9 +548,6 @@ header{
     font-size: 30px;
     margin-bottom: 50px;
 }
-.form-class {
-    float: left;
-}
 .Forms textarea {
     resize: none;
 }
