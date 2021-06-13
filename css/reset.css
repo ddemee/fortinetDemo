@@ -26,12 +26,20 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.carouselExampleIndicators {
+  text-decoration: none;
+}
+a:hover .btn-group { text-decoration: none }
+a .btn-group:hover { text-decoration: none }
+a:hover .btn-group .btn { text-decoration: none }
+a .btn-group .btn:hover { text-decoration: none }
 ol, ul {
 	list-style: none;
 }
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';

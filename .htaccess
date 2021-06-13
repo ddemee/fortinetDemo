@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteRule ^მთავარი?$ indexgeo.html
+RewriteRule ^დაცვა?$ networksecuritygeo.html
+RewriteRule ^ახალითაობა?$ nextgenerationgeo.html
+RewriteRule ^SDWANგეო?$ sdwangeo.html
+RewriteRule ^main?$ index.html
+RewriteRule ^networksecurity?$ networksecurity.html
+RewriteRule ^nextgeneration?$ nextgeneration.html
+RewriteRule ^SDWAN?$ sdwan.html
+
+
