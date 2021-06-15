@@ -554,34 +554,39 @@ header{
 
 }
 /*  Form Tags  */
-.Forms {
+#calling {
     padding: 110px 0 80px ;
 }
-
-.tags {
-    padding: 30px 0 80px ;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+.form {
+    width: 50%;
 }
-.tags img {
-    width: 80%;
+.form-select {
+    margin: 10px 0;
 }
-.Forms h3 {
+#calling h3 {
     color: #000;
     font-size: 30px;
     margin-bottom: 50px;
-}howsdwanworks-column
-.Forms textarea {
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name,#lastname {
+    width: 100%;
+}
+.form textarea {
     resize: none;
 }
-.Forms button {
+.form button {
     background-color: #323e48;
     padding: 10px 35px;
     border: none;
+    color: white;
+    margin-top: 25px;
 }
-.Forms button:hover {
+.form button:hover {
     background-color: #52789e;
 }
 .mb-4 {

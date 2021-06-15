@@ -324,59 +324,48 @@
                 </div>
             </div>
         </section >
-        <section class="Forms" id="calling">
+        <section id="calling">
             <div class="container">
                 <h3>ზარის მოთხოვნა</h3>
-                <div class="tags">
-                <div>
-                    <img src="img/official.jpg" alt="">
-                </div>
-                <form class="form-class" method="POST" action="contactus.php">
-                    <!-- 2 column grid layout with text inputs for the first and last names -->
-                    <div class="row mb-4">
-                      <div class="col">
-                        <div class="form-outline">
-                          <input type="text" id="form6Example1" name="name" class="form-control"  placeholder="სახელი..."/>
-                          <label class="form-label" for="form6Example1"></label>
+                <form action="contactus.php" method="POST" class="form">
+                    <div class="names">
+                        <div class="form-group">
+                            <label for="name" class="form-label"></label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="სახელი.." tabindex="1" required>
                         </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-outline">
-                          <input type="text" id="form6Example2" name="lastname" class="form-control"   placeholder="გვარი..."/>
-                          <label class="form-label" for="form6Example2"></label>
+                        <div class="form-group">
+                            <label for="lastname" class="form-label"></label>
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="გვარი..." tabindex="2" required>
                         </div>
-                      </div>
                     </div>
-                  
-                    <!-- Text input -->
-                    <div class="form-outline mb-4">
-                      <input type="text" id="form6Example3" class="form-control" name="company" placeholder="კომპანიის სახე..." />
-                      <label class="form-label" for="form6Example3"></label>
+                    <div class="form-group">
+                        <label for="email" class="form-label"></label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="თქვენი@მეილი.ge" tabindex="3" required>
                     </div>
-
-                    <!-- Email input -->
-                    <div class="form-outline mb-4">
-                      <input type="email" id="form6Example5" class="form-control" name="mail"  placeholder="თქვენი@მეილი.გე..." />
-                      <label class="form-label" for="form6Example5"></label>
+                    <div class="form-group">
+                        <label for="company" class="form-label"></label>
+                        <input type="text" class="form-control" id="company" name="company" placeholder="კომპანია..." tabindex="5" required>
                     </div>
-                  
-                    <!-- Number input -->
-                    <div class="form-outline mb-4">
-                      <input type="text" id="form6Example6" class="form-control" name="phone"   placeholder="ტელეფონი..."/>
-                      <label class="form-label" for="form6Example6"></label>
+                    <div class="form-group">
+                        <label for="phone" class="form-label"></label>
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="ტელეფონი..." tabindex="5" required>
                     </div>
-                  
-                    <!-- Message input -->
-                    <div class="form-outline mb-4">
-                      <textarea class="form-control" id="form6Example7" rows="4" name="message" placeholder="შეტყობინება..."></textarea>
-                      <label class="form-label" for="form6Example7"></label>
+                    <select class="form-select form-group" aria-label="Default select example" id="select" name="select" tabindex="6" >
+                        <option selected>აირჩიეთ პროდუქცია</option>
+                        <option value="1">FortiGate</option>
+                        <option value="2">FortiMail</option>
+                        <option value="3">FortiManager</option>
+                        <option value="4">FortiWeb</option>
+                        <option value="5">FortiAnalyzer</option>
+                      </select>
+                    <div class="form-group">
+                        <label for="message" class="form-label"></label>
+                        <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="7"></textarea>
                     </div>
-                    <!-- Submit button -->
-                    <center>
-                    <button type="submit" class="btn btn-primary btn-block mb-4">შეკვეთა</button>
-                    </center>
+                    <div>
+                        <button type="submit" class="btn">Send Message!</button>
+                    </div>
                 </form>
-                </div>
             </div>
         </section>
         <section>
