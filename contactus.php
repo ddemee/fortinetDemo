@@ -11,7 +11,8 @@ $message= $_POST['message'];
 $to = "orders@fortinet.ge"
 $body = "";
 
-$body .= "From: ".$userName. .$userLast "\r\n";
+$body .= "From: ".$userName. "\r\n";
+$body .= "From: ".$userLast. "\r\n";
 $body .="Email: ".$userEmail. "\r\n";
 $body .="Company: ".$userCompany. "\r\n";
 $body .="Phone: ".$userPhone. "\r\n";
