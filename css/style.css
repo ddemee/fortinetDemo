@@ -361,6 +361,7 @@ header{
     justify-content: center;
     align-items: baseline;
 }
+
 #product  h2 {
     margin-top: 0 ;
     font-size: 36px;
@@ -386,7 +387,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 200px 30px 100px;
+    padding: 200px 30px 80px;
     border-radius: 10px;
     position: relative;
     box-shadow: 0 12px 6px -6px black;
@@ -402,7 +403,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 180px 30px 80px;
+    padding: 180px 30px 50px;
     border-radius: 10px;
     position: relative;
     box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.836);
@@ -415,7 +416,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 160px 30px 60px;
+    padding: 160px 30px 30px;
     border-radius: 10px;
     position: relative;
     box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.836);
@@ -424,11 +425,11 @@ header{
 #product a{
     float: right;
     margin: 50px 0 0 0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: all ease 0.5s;
 }
 #product a:hover{
-    color: rgb(23, 56, 100);
+    color: rgb(204, 32, 32);
 }
 /* section5 */
 #industry {
