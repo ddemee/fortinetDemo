@@ -547,7 +547,7 @@ header{
     color: #000;
     font-size: 30px;
     margin-bottom: 50px;
-}
+}howsdwanworks-column
 .Forms textarea {
     resize: none;
 }
@@ -1043,6 +1043,7 @@ header{
     background-image: linear-gradient(to right,#f6f5f5, #d3e0ea);
     padding: 30px 0;
 }
+
 .howsdwan h2{
     text-align: center;
     font-size: 35px;
@@ -1063,6 +1064,9 @@ header{
 .howsdwanworks-column {
     width: 45%;
     margin: 0 auto;
+}
+.nextgeneration {
+    width: 60%;
 }
 /* ---------------- */
 .historysdwan {
