@@ -1080,6 +1080,14 @@ header{
 }
 
 /* ======= contact us ========*/
+.contact-bg {
+    background-image: url(../img/contactus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    padding: 250px 0;
+}
 .contactus {
     padding: 100px 0;
 }
@@ -1087,9 +1095,6 @@ header{
     justify-content: space-between;
     align-items: flex-start;
     display: flex;
-}
-.contactus-form-column {
-    width: 55%;
 }
 .contactus-form {
     width: 100%;
@@ -1100,7 +1105,9 @@ header{
     width: 40%;
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
+}
+.con  {
+    padding: 100px 0;
 }
 .contactus-form-col h5 {
     color: black;
