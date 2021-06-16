@@ -903,17 +903,6 @@ header{
     position: relative;
 
 }
-.whatis::after {
-    content: "";
-    background-color: #000;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    opacity: 0.5;
-}
 .aboutnetwork {
     margin-top: 35px;
 }

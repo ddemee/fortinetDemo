@@ -267,6 +267,16 @@
         margin-top: 35px;
     }
     /* Security Systems  */
+    .whatis {
+        padding: 50px 0;
+    }
+    .whatis h5 {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    .whatis p {
+        font-size: 18px;
+    }
     .security-system {
         flex-direction: column;
     }
@@ -280,6 +290,9 @@
         order: 2;
     }
     /*  SDWAN HEADER */
+    .SDWAN-header{
+        padding: 50px 0;
+    }
     .SDWAN-header-column {
         flex-direction: column;
     }
