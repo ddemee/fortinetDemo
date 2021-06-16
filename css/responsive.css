@@ -301,7 +301,7 @@
         
     }
     .SDWAN-header-column img {
-        margin-top: 50px;
+        display: none;
     }
     /*  SDWAN EXLPAINED */
 
