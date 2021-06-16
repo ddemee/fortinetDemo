@@ -45,24 +45,29 @@
                             <a href="contactus.html"><li></li>კონტაქტი</li></a>
                         </ul>
                         <div  class="btn-group">
-                            <a class="language active" href="sdwangeo.html">Geo</a>
+                            <a class="language active" href="nextgenerationgeo.html">Geo</a>
                             <div class="divider"></div>
-                            <a class="language" href="sdwan.html">Eng</a>
+                            <a class="language" href="nextgeneration.html">Eng</a>
                         </div>
                 </nav>
             </div>
         </header>
         <section class="SDWAN-header">
             <div class="container">
-                <div class="SDWAN-header-column">
+                <!-- <div class="SDWAN-header-column">
                     <div class="SDWAN-header-col">
                         <div>
                             <h1>შემდეგი თაობის Firewall (NGFW)</h1>
                             <p>დაიცავით ქსელის ნებისმიერი ზღვარი ნებისმიერ მასშტაბში</p>
                         </div>
+                        <img src="img/web-product-icon-next-generation-firewal.png" alt="web-product-icon-next-generation-firewal">
                     </div>
-                </div>
-                <div>
+                </div> -->
+                <div class="SDWAN-header-column">
+                    <div>
+                        <h1>შემდეგი თაობის Firewall (NGFW)</h1>
+                        <p>დაიცავით ქსელის ნებისმიერი ზღვარი ნებისმიერ მასშტაბში</p>
+                    </div>
                     <img src="img/web-product-icon-next-generation-firewal.png" alt="web-product-icon-next-generation-firewal">
                 </div>
             </div>
@@ -134,11 +139,11 @@
                 <hr>
                 <div class="howsdwanworks">
                   
-                    <div class="nextgeneration">
+                    <div class="nextgeneration order1">
                         <h5 class="network-h5">შიდა უსაფრთხოების რისკების მართვა</h5>
                         <p class="network-p">ბრტყელი ქსელები სუსტდება, როდესაც ისინი თავს დაესხნენ, რადგან ისინი არ გვთავაზობენ უსაფრთხოების რაიმე მაღალ შემოწმებას. FortiGate NGFW უზრუნველყოფს ქსელზე დაფუძნებულ სეგმენტაციას შეტევის ზედაპირის შესამცირებლად და აფერხებს შეტევის შესაძლებლობას ქსელში გვერდითი გავრცელება, უზრუნველყოს ნებისმიერი სეგმენტაცია (მიკრო, მაკრო, პორტი ან პროგრამა დაფუძნებული) ავტომატიზირებული სამუშაო პროცესებით, ადაპტაციური ნდობა, და მაღალი ხარისხის საფრთხისგან დაცვა, თავდაცვის სიღრმისეულად, შესაბამისობაში და სანდო აპლიკაციის წვდომის მისაღწევად.</p>
                     </div>
-                    <img src="img/solution-topic-intent-based-segnmentation.png" alt="solution-topic-intent-based-segnmentation-png">
+                    <img class="order2" src="img/solution-topic-intent-based-segnmentation.png" alt="solution-topic-intent-based-segnmentation-png">
                 </div>
                 <hr>
                 <div class="howsdwanworks">
@@ -151,11 +156,11 @@
                 <hr>
                 <div class="howsdwanworks">
                    
-                    <div class="nextgeneration">
+                    <div class="nextgeneration order1">
                         <h5 class="network-h5">უზრუნველყეთ უსაფრთხოება ჰიპერ მასშტაბით</h5>
                         <p class="network-p">ტრადიციული ეკრანები ჩახშობა ხდება მომხმარებლის ტრეფიკის მაღალი შემოდინების მართვისას, რომელიც საჭიროა ჰიპერმასშტაბიანი სიჩქარით. შედეგად, განიცდის მომხმარებლის გამოცდილებას. უსაფრთხოების გაყალბება ხსნის თავდამსხმელებს თქვენი სერვისების დარღვევაში. Fortinet NGFWs გთავაზობთ უნიკალურ და შეუდარებელ უსაფრთხოებას თქვენი ბიზნესის ვებსაიტების ხელმისაწვდომობის, რეაგირებისა და ოპტიმალური მომხმარებლის გამოცდილების უზრუნველსაყოფად.</p>
                     </div>
-                    <img src="img/web-icon-fw-hyperscale.png" alt="web-icon-fw-hyperscale-png">
+                    <img class="order2" src="img/web-icon-fw-hyperscale.png" alt="web-icon-fw-hyperscale-png">
                 </div>
                 <hr>
                 <div class="howsdwanworks">
@@ -282,6 +287,15 @@
             </div>
         </footer>
         
+        <script>
+            const hamburger = document.getElementById('hamburger')
+            const navUL =document.getElementById('menu')
+    
+            hamburger.addEventListener('click', () => {
+                navUL.classList.toggle('show');
+    
+            });
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     </body>

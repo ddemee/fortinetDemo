@@ -144,7 +144,7 @@
         flex-wrap: wrap;
     }
 }
- @media (max-width: 769.98px) { 
+@media (max-width: 769.98px) { 
      /* header */
      .section1-bg {
         height: 70vh;
@@ -214,9 +214,8 @@
 
         align-items: center;
     }
-    .form-class {
-
-        margin-top: 30px;
+    .form {
+        width: 100%;
     }
     /* ---- Benefits ---- */
     .benefit-div {
@@ -252,7 +251,69 @@
     .footer-form {
         margin-top: 30px;
       }
+        /* Networ Security  */
+  .Security-Driven {
+    flex-direction: column;
+    width: 100%;
+    }
+    .Security-Driven div {
+        width: 100%;
+    }
+    .Security-Driven .network-p{
+        width: 100%;
+    }
+    .Security-Driven iframe {
+        width: 100%;
+        margin-top: 35px;
+    }
+    /* Security Systems  */
+    .security-system {
+        flex-direction: column;
+    }
+    .security-system div {
+        width: 100%;
+    }
+    .order2 {
+        order: 1;
+    }
+    .order1{
+        order: 2;
+    }
+    /*  SDWAN HEADER */
+    .SDWAN-header-column {
+        flex-direction: column;
+    }
+    .SDWAN-header-column h1 {
+        font-size: 25px;
+        
+    }
+    .SDWAN-header-column img {
+        margin-top: 50px;
+    }
+    /*  SDWAN EXLPAINED */
 
+    .SD-WAN-Explained {
+        flex-direction: column;
+    }
+    .SD-WAN-Explained div {
+        width: 100%;
+    }
+    .SD-WAN-Explained iframe {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    /* HOW SDWAN WORKS  */
+    .howsdwanworks {
+        flex-direction: column;
+    }
+    .howsdwanworks-column {
+        width: 100%;
+        margin-top: 35px;
+    }
+    /*  Next Generation */
+    .nextgeneration {
+        width: 100%;
+    }
   }
 @media (max-width: 575.98px) { 
     .header {
@@ -282,7 +343,13 @@
         left:15px;
         
     }
-
+    /* Section 1 */
+    .section1-text h1 {
+        font-size: 20px;
+    }
+    .section1-text p {
+        font-size: 16px;
+    }
     /* Columns  */
     .section2-col {
         display: flex;
@@ -303,6 +370,9 @@
     }
     /* ------------------ */
     /* Product Main  */
+    #product h2 {
+        font-size: 25px;
+    }
     .center-div {
         width: 95%;
         background-color: #222831;

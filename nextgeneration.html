@@ -55,14 +55,10 @@
         <section class="SDWAN-header">
             <div class="container">
                 <div class="SDWAN-header-column">
-                    <div class="SDWAN-header-col">
-                        <div>
-                            <h1>Next-Generation Firewall (NGFW)</h1>
-                            <p>Protect any Network Edge at any Scale</p>
-                        </div>
+                    <div>
+                        <h1>Next Generation Firewall (NGFW)</h1>
+                        <p>Protect any edge of the network at any scale</p>
                     </div>
-                </div>
-                <div>
                     <img src="img/web-product-icon-next-generation-firewal.png" alt="web-product-icon-next-generation-firewal">
                 </div>
             </div>
@@ -132,16 +128,16 @@
                     </div>
                 </div>
                 <hr>
-                <div class="howsdwanworks">
+                <div class="howsdwanworks order1">
                   
-                    <div class="nextgeneration">
+                    <div class="nextgeneration order1">
                         <h5 class="network-h5">Manage Internal Security Risks</h5>
                         <p class="network-p">Flat networks weaken when attacked because they don’t offer any advanced security inspection. FortiGate NGFWs deliver network-based segmentation to reduce the attack surface and inhibit the ability of an attack to spread laterally within the network, securing any segmentation (micro-, macro-, port- or application-based) with automated workflows, adaptive trust, and high-performance threat protection to achieve defense in depth, compliance and Trusted Application Access.</p>
                     </div>
-                    <img src="img/solution-topic-intent-based-segnmentation.png" alt="solution-topic-intent-based-segnmentation-png">
+                    <img class="order2" src="img/solution-topic-intent-based-segnmentation.png" alt="solution-topic-intent-based-segnmentation-png">
                 </div>
                 <hr>
-                <div class="howsdwanworks">
+                <div class="howsdwanworks ">
                     <img src="img/ips.png" alt="ips-png">
                     <div class="nextgeneration">
                         <h5 class="network-h5">Manage Vulnerabilities</h5>
@@ -151,11 +147,11 @@
                 <hr>
                 <div class="howsdwanworks">
                    
-                    <div class="nextgeneration">
+                    <div class="nextgeneration order1">
                         <h5 class="network-h5">Provide Security at Hyperscale</h5>
                         <p class="network-p">Traditional firewalls choke when handling the high influx of user traffic required at hyperscale speeds. As a result, user experience suffers. Forgoing security opens the doors to attackers to disrupt your services. Fortinet NGFWs offer unique and unparalleled security to ensure your business web sites remain accessible, responsive, and provide an Optimal User Experience</p>
                     </div>
-                    <img src="img/web-icon-fw-hyperscale.png" alt="web-icon-fw-hyperscale-png">
+                    <img class="order2" src="img/web-icon-fw-hyperscale.png" alt="web-icon-fw-hyperscale-png">
                 </div>
                 <hr>
                 <div class="howsdwanworks">
@@ -280,6 +276,15 @@
             </div>
         </footer>
         
+        <script>
+            const hamburger = document.getElementById('hamburger')
+            const navUL =document.getElementById('menu')
+    
+            hamburger.addEventListener('click', () => {
+                navUL.classList.toggle('show');
+    
+            });
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     </body>
