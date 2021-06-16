@@ -1,3 +1,4 @@
+
 <?php
 if(isset($_POST['submit'])){
     $mailto = "orders@fortinet.ge";  
@@ -16,9 +17,9 @@ if(isset($_POST['submit'])){
     $result = mail($mailto,$company,$mobile,$selected,$message,$headers);
     $result2 = mail($from,$subject2,$message3,$headers2);
     if($result){
-        echo '<script type="text/javascript">alert("Message Sent. Thank you! We will contact you shortly.")'
-    }else{
-        echo '<script type="text/javascript">alert("Submission Failed! Try again Later.")'
+        echo '<script type="text/javascript">alert("Message Sent. Thank you! We will contact you shortly.")';
+    } else{
+        echo '<script type="text/javascript">alert("Submission Failed! Try again Later.")';
     }
 
 }
